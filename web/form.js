@@ -31,6 +31,6 @@ form.addEventListener("submit", async (event) => {
     text: transcription.data.result
   })
 
-  content.textContent = summary.data.result
+  content.textContent = transcription.data.result
   content.classList.remove("placeholder")
 });
